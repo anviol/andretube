@@ -4,11 +4,12 @@ import Menu from './components/Menu'
 import BannerMain from './components/BannerMain'
 import Carousel from './components/Carousel'
 import Footer from './components/Footer'
+import './App.css'
 
 
 function App() {
   return (
-    <div style={{ background: "#141414"}}>
+    <div className="principal-div">
       <Menu />
 
       <BannerMain 
