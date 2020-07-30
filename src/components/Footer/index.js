@@ -18,6 +18,9 @@ function Footer() {
           André Oliveira
         </a>
       </p>
+      <p className="versao">
+        0.5.1
+      </p>
     </FooterBase>
   );
 }

@@ -3,7 +3,7 @@ Crie uma aplicação web com React, do zero!
 
 ## Histórico de versões
 
-Versão atual: 0.4.1
+Versão atual: 0.5.1
 
 0.1.0
 * Aula 01.
@@ -19,6 +19,10 @@ Versão atual: 0.4.1
 
 0.5.0
 * Retirei os botões de todas as telas e deixei apenan na Home.
+
+0.5.1
+* Ajustes no botão;
+* Inclusão da versão no rodapé.
 
 # <center>Autor
 

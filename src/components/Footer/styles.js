@@ -12,5 +12,9 @@ export const FooterBase = styled.footer`
   text-align: center;
   @media (max-width: 800px) {
     margin-bottom: 50px;
-  }
+  };
+  .versao{
+    text-align: right;
+    font-size: 8px;
+  };
 `;

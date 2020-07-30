@@ -8,7 +8,7 @@ function Menu({page}) {
     console.log(page)
 
     function apareceButton() {
-        if (page == 'Home') {
+        if (page[0] === 'Home') {
             return(
                 <ButtonLink className="ButtonLink" to="/cadastro/video">
                 Novo Vídeo
