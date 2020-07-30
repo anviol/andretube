@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function CadastroVideo(params) {
     return (
-        <PageDefault>
+        <PageDefault page='CadastroVideo'>
             <h1>Cadastro de Vídeo</h1>
             
             <Link to="/cadastro/categoria">

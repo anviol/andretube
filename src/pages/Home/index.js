@@ -9,7 +9,7 @@ import PageDefault from '../../components/PageDefault';
 function Home() {
   return (
     <div className="principal-div">
-      <PageDefault>
+      <PageDefault page='Home'>
 
         <BannerMain 
           videoTitle={dadosIniciais.categorias[0].videos[0].titulo}

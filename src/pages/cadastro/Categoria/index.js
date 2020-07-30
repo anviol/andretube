@@ -23,7 +23,7 @@ function CadastroCategoria(params) {
     }
 
     return (
-        <PageDefault>
+        <PageDefault page='CadastroCategoria'>
             <h1>Cadastro de Categorias: {valores.nome}</h1>
         
             <form onSubmit={(event) => {

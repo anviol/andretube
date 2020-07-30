@@ -7,13 +7,13 @@ const Main = styled.main`
     background-color: var(--black);
     color: var(--white);
     flex: 1;
-    padding: 50px 5% 5% 5%
-`;
+    padding: 50px 5% 5% 5%;
+`
 
-function PageDefault({ children }) {
+function PageDefault({ children, page }) {
     return(
         <>
-            <Menu />
+            <Menu page={[page]}/>
                 <Main>
                     {children}
                 </Main>
